@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74A524C221847F1A0084C8DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A524C121847F1A0084C8DF /* AppDelegate.swift */; };
+		74A524C421847F1A0084C8DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A524C321847F1A0084C8DF /* ViewController.swift */; };
+		74A524C721847F1A0084C8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A524C521847F1A0084C8DF /* Main.storyboard */; };
+		74A524C921847F1C0084C8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A524C821847F1C0084C8DF /* Assets.xcassets */; };
+		74A524CC21847F1C0084C8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A524CA21847F1C0084C8DF /* LaunchScreen.storyboard */; };
+		9D1344CB1FC64D3573013073 /* Pods_Dependabot_Cocoa_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77383D903663CEDE5B8C221F /* Pods_Dependabot_Cocoa_Sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2110A4D484273A0464A8697E /* Pods-Dependabot Cocoa Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependabot Cocoa Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dependabot Cocoa Sample/Pods-Dependabot Cocoa Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		74A524BE21847F1A0084C8DF /* Dependabot Cocoa Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dependabot Cocoa Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A524C121847F1A0084C8DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74A524C321847F1A0084C8DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74A524C621847F1A0084C8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74A524C821847F1C0084C8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A524CB21847F1C0084C8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A524CD21847F1C0084C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77383D903663CEDE5B8C221F /* Pods_Dependabot_Cocoa_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependabot_Cocoa_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC73635F6140B2D420A6546 /* Pods-Dependabot Cocoa Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependabot Cocoa Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dependabot Cocoa Sample/Pods-Dependabot Cocoa Sample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A524BB21847F1A0084C8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1344CB1FC64D3573013073 /* Pods_Dependabot_Cocoa_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DBADCFAE98921EFA96EEC3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77383D903663CEDE5B8C221F /* Pods_Dependabot_Cocoa_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74A524B521847F1A0084C8DF = {
+			isa = PBXGroup;
+			children = (
+				74A524C021847F1A0084C8DF /* Dependabot Cocoa Sample */,
+				74A524BF21847F1A0084C8DF /* Products */,
+				784DA913F5BAB22F96CD020D /* Pods */,
+				3DBADCFAE98921EFA96EEC3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74A524BF21847F1A0084C8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A524BE21847F1A0084C8DF /* Dependabot Cocoa Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A524C021847F1A0084C8DF /* Dependabot Cocoa Sample */ = {
+			isa = PBXGroup;
+			children = (
+				74A524C121847F1A0084C8DF /* AppDelegate.swift */,
+				74A524C321847F1A0084C8DF /* ViewController.swift */,
+				74A524C521847F1A0084C8DF /* Main.storyboard */,
+				74A524C821847F1C0084C8DF /* Assets.xcassets */,
+				74A524CA21847F1C0084C8DF /* LaunchScreen.storyboard */,
+				74A524CD21847F1C0084C8DF /* Info.plist */,
+			);
+			path = "Dependabot Cocoa Sample";
+			sourceTree = "<group>";
+		};
+		784DA913F5BAB22F96CD020D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2110A4D484273A0464A8697E /* Pods-Dependabot Cocoa Sample.debug.xcconfig */,
+				7BC73635F6140B2D420A6546 /* Pods-Dependabot Cocoa Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A524BD21847F1A0084C8DF /* Dependabot Cocoa Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A524D021847F1C0084C8DF /* Build configuration list for PBXNativeTarget "Dependabot Cocoa Sample" */;
+			buildPhases = (
+				7835B8ADEB24B937706D3CA2 /* [CP] Check Pods Manifest.lock */,
+				74A524BA21847F1A0084C8DF /* Sources */,
+				74A524BB21847F1A0084C8DF /* Frameworks */,
+				74A524BC21847F1A0084C8DF /* Resources */,
+				5A5CC98D3D4E739AB574895F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dependabot Cocoa Sample";
+			productName = "Dependabot Cocoa Sample";
+			productReference = 74A524BE21847F1A0084C8DF /* Dependabot Cocoa Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A524B621847F1A0084C8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jack Spargo";
+				TargetAttributes = {
+					74A524BD21847F1A0084C8DF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 74A524B921847F1A0084C8DF /* Build configuration list for PBXProject "Dependabot Cocoa Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74A524B521847F1A0084C8DF;
+			productRefGroup = 74A524BF21847F1A0084C8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A524BD21847F1A0084C8DF /* Dependabot Cocoa Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A524BC21847F1A0084C8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A524CC21847F1C0084C8DF /* LaunchScreen.storyboard in Resources */,
+				74A524C921847F1C0084C8DF /* Assets.xcassets in Resources */,
+				74A524C721847F1A0084C8DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5CC98D3D4E739AB574895F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dependabot Cocoa Sample/Pods-Dependabot Cocoa Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dependabot Cocoa Sample/Pods-Dependabot Cocoa Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7835B8ADEB24B937706D3CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dependabot Cocoa Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A524BA21847F1A0084C8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A524C421847F1A0084C8DF /* ViewController.swift in Sources */,
+				74A524C221847F1A0084C8DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74A524C521847F1A0084C8DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A524C621847F1A0084C8DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74A524CA21847F1C0084C8DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A524CB21847F1C0084C8DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74A524CE21847F1C0084C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74A524CF21847F1C0084C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A524D121847F1C0084C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2110A4D484273A0464A8697E /* Pods-Dependabot Cocoa Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W98DKPAM4;
+				INFOPLIST_FILE = "Dependabot Cocoa Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackspargo.Dependabot-Cocoa-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74A524D221847F1C0084C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC73635F6140B2D420A6546 /* Pods-Dependabot Cocoa Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W98DKPAM4;
+				INFOPLIST_FILE = "Dependabot Cocoa Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackspargo.Dependabot-Cocoa-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A524B921847F1A0084C8DF /* Build configuration list for PBXProject "Dependabot Cocoa Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A524CE21847F1C0084C8DF /* Debug */,
+				74A524CF21847F1C0084C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A524D021847F1C0084C8DF /* Build configuration list for PBXNativeTarget "Dependabot Cocoa Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A524D121847F1C0084C8DF /* Debug */,
+				74A524D221847F1C0084C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74A524B621847F1A0084C8DF /* Project object */;
+}

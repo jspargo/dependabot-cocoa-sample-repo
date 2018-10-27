@@ -1,0 +1,6 @@
+framework module Pods_Dependabot_Cocoa_Sample {
+  umbrella header "Pods-Dependabot Cocoa Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
